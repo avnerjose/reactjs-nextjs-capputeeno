@@ -28,7 +28,7 @@ export function Header() {
             <SearchIcon className="w-6 h-6 text-[#737380]" />
           </div>
           <Link href="/cart" passHref>
-            <a className="relative flex align-center justify-center">
+            <a className="shopping-cart relative flex align-center justify-center">
               <div
                 className={`absolute bottom-[0.5rem] right-[-0.4rem] bg-[#DE3838] rounded-full w-5 h-5 text-sm  text-white flex align-center justify-center ${
                   totalAmount <= 0 && "hidden"

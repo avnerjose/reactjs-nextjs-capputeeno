@@ -44,12 +44,14 @@ export function CartProductItem({ product }: CartProductItemProps) {
           <TrashIcon
             onClick={() => handleRemoveProductFromCart(product.id)}
             className="w-5 h-5 text-[#DE3838] cursor-pointer"
+            aria-label="Remove product from cart"
           />
         </header>
         <h3>{product.description}</h3>
         <footer className="mt-6 font-semibold flex align-center justify-between text-xl text-black">
           <select
             id="amount"
+            data-testid="amount-select"
             className=" bg-[#F3F5F6] py-1 px-4 border-2 border-color-[#A8A8B3] rounded-md text-[#A8A8B3] font-semibold"
             onChange={(e) =>
               handleUpdateProductAmount(product.id, Number(e.target.value))

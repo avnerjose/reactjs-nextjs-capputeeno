@@ -72,7 +72,7 @@ const ProductPage: NextPage = () => {
               </div>
               <button
                 onClick={() => handleAddProductToCart(product?.id)}
-                className="bg-[#115D8C] text-white p-2 flex align-center justify-center gap-2"
+                className="cart-button bg-[#115D8C] text-white p-2 flex align-center justify-center gap-2"
               >
                 <ShoppingBagIcon className="w-5 h-5" />
                 <span>ADICIONAR AO CARRINHO</span>

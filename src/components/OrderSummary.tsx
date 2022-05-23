@@ -42,6 +42,7 @@ export function OrderSummary() {
           </span>
         </div>
         <button
+          id="finish-order"
           className="bg-[#51B853] w-[100%] p-2 mt-10 rounded-md text-white font-semibold text-base disabled:opacity-70 disabled:cursor-not-allowed"
           disabled={products.length === 0}
           onClick={handleFinishOrder}

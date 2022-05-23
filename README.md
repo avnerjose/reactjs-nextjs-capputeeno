@@ -34,7 +34,7 @@ This project is a simple e-commerce website with product listing, filtering and 
 1. Clone this repository: 
 
 ```bash
-git clone https://github.com/avnerjose/reactjs-nextjs-pwa-podcastr
+git clone https://github.com/avnerjose/reactjs-nextjs-capputeeno.git
 ```
 2. Go to the folder you cloned the repository and install all dependencies
 
